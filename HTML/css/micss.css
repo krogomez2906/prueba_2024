@@ -1,0 +1,84 @@
+
+
+*{
+
+    background-color: #e6e4e7;       
+ }
+
+ @font-face {
+    font-family: fuente;
+    src: url("font/fuente.ttf");
+ }
+
+
+
+
+p{
+   background-color: aqua;
+   color:indigo;
+   font-size: 30px;
+}
+
+
+
+
+td{
+    background: #e9a296;
+    width: 100px;
+    height: 100px;
+   
+}
+
+td{
+
+    background: #16e9b4;
+}
+
+.titulo{
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+
+.textoCentrado{
+    text-align: center;
+    font-size: 30px;
+} 
+
+.fondolila{
+    background: #d561ec;
+    font-size: 10px;
+
+}
+
+#cuatro{
+
+    background: #e7bcec;
+}
+
+#cinco{
+
+    background: #ebaddd;
+}
+
+#seis{
+
+    background: #947ceb;
+    border-left: 5px solid red;
+}
+
+thead tr td{
+
+        background: #ddf0fd;
+        width: 100px;
+        height: 100px;
+
+    }
+
+    @media only screen and (max-width:700px){
+
+    p{
+        background-color: #e746bf;
+    
+    }
+}
